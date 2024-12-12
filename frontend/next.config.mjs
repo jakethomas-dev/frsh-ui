@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   basePath: "/frsh-ui",
+  assetPrefix: "/frsh-ui/",
   output: "export",
   reactStrictMode: true,
 };
 
-module.exports = nextConfig;
+export default nextConfig;
