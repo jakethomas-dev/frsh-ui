@@ -4,12 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
-    "deploy": "gh-pages -d out",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
-  "homepage": "https://jtclayton-dev.github.io/frsh-ui",
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
