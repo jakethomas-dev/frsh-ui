@@ -4,7 +4,6 @@ import EmailInput from "@/components/input/EmailInput";
 import PasswordInput from "@/components/input/PasswordInput";
 import SimpleTextInput from "@/components/input/SimpleTextInput";
 import Tag from "@/components/Tag";
-import Image from "next/image";
 
 export default function Home() {
   return (
